@@ -1,7 +1,12 @@
 # Simple Fibonacci generator in Python 
-def fibonacci(n):
-    #fucntion ......
+'''def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=' ')
+        a, b = b, a + b
 
-# Ask the user for input
-num = int(input("How many Fibonacci numbers do you want? 👉 "))
-#print....
+num_terms = int(input("Enter the number of Fibonacci terms to generate: "))
+
+print("Fibonacci sequence:")
+fibonacci(num_terms)
+'''
